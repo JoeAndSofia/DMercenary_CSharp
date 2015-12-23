@@ -47,11 +47,11 @@ namespace DMercenary
 		{
 			protected int level = 0;	// current level of this skill
 			protected int max = 0;		// max level this skill can reach
-			protected CastType castType = None;				// determine how the skill behave
-			protected ImpactType impactType = None;			// 
-			protected EffectType effectType = None;			//
-			protected ParticalType particalType = None;		// 
-			protected DamageType damageType = None;			//
+			protected CastType castType = CastType.None;				// determine how the skill behave
+			protected ImpactType impactType = ImpactType.None;			// 
+			protected EffectType effectType = EffectType.None;			//
+			protected ParticalType particalType = ParticalType.None;		// 
+			protected DamageType damageType = DamageType.None;			//
 
 			public Skill(){}
 
